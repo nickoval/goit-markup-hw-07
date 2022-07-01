@@ -1,0 +1,38 @@
+.works {
+  padding-top: 0;
+}
+
+.works-list {
+  display: flex;
+}
+
+.works-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.works-list .item {
+  position: relative;
+}
+
+.works-list .title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+
+  /* padding-top: 27px;
+    padding-bottom: 27px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+  background-color: var(--worklist-bg-color);
+}
