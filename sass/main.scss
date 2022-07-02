@@ -1,8 +1,8 @@
 @import 'utils/variables';
-@import 'base/mynormalize';
+@import 'base/reset';
 @import 'utils/smooth';
 @import 'utils/visually-hidden';
-@import 'base/section-container';
+// @import 'base/section-container';
 @import 'base/common';
 @import 'components/button';
 @import 'utils/changeCurrentLine';
@@ -16,11 +16,12 @@
 @import 'layouts/works';
 @import 'layouts/team';
 @import 'layouts/clients';
+@import 'layouts/footer';
 // @import '';
+@import 'layouts/portfolio';
 // @import '';
-// @import '';
-// @import '';
-// @import '';
+@import 'components/modal-window';
+@import 'layouts/order-form';
 // @import '';
 // @import '';
 // @import '';

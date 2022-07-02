@@ -8,6 +8,17 @@ body {
   background-color: var(--white-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 img {
   display: block;
   max-width: 100%;

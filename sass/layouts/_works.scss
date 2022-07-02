@@ -6,15 +6,15 @@
   display: flex;
 }
 
-.works-list .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.works-list .item {
+.works-list__item {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.works-list .title {
+.works-list__title {
   position: absolute;
   left: 0;
   bottom: 0;

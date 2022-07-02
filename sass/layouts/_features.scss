@@ -4,15 +4,16 @@
   /* justify-content: space-between; */
 }
 
-.feature-item {
+.feature-list__item {
   flex-basis: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.feature-item:not(:last-child) {
-  margin-right: 30px;
-}
 
-.feature-icon {
+.feature-list__icon-field {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +23,7 @@
   border-radius: 4px;
 }
 
-.feature-list .title {
+.feature-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -33,6 +34,6 @@
   color: var(--title-text-color);
 }
 
-.feature-list .text {
+.feature-list__text {
   font-weight: 400;
 }

@@ -1,0 +1,132 @@
+.page-footer {
+  background-color: var(--footer-bg-color);
+  padding: 60px 0;
+
+  
+  & .container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+
+.contacts-block {
+  margin-right: 70px;
+}
+
+.logo-footer {
+  color: var(--white-color);
+}
+
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white-color);
+  margin-top: 20px;
+}
+
+.contacts-list .item:not(:first-child) {
+  margin-top: 9px;
+}
+
+
+.contacts-item {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--footer-contacts-color);
+}
+
+.connect-block .title,
+.subscription-block .title {
+  display: block;
+  font-weight: 700;
+  /* font-size: 14px; */
+  line-height: 1.143;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: var(--white-color);
+}
+
+/* .page-footer .social-link {
+    color: var(--white-color);
+    background-color: var(--connect-bg-cos-color);
+} */
+
+.footer-social_link {
+  color: var(--white-color);
+  background-color: var(--connect-bg-cos-color);
+}
+
+
+/* .page-footer .social-link:hover,
+.page-footer .social-link:focus {
+    background-color: var(--accent-color);
+} */
+
+.subscription-block {
+  margin-left: auto;
+
+}
+
+.subscription-field {
+  display: flex;
+}
+
+.subscription-field input {
+  display: block;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  border: 1px solid var(--footer-input-bg-color);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.subscription-field input::placeholder {
+  color: var(--footer-contacts-color);
+}
+
+.footer-button {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  overflow: hidden;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: var(--accent-2-color);
+}
+
+/* .footer-button .icon-out {
+    transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+.footer-button .icon-in {
+  position: absolute;
+  right: 27px;
+  transform: translate(-40px, 40px);
+  /* transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+
+.footer-button:hover .icon-out,
+.footer-button:focus .icon-out {
+  transform: translate(40px, -40px);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover .icon-in,
+.footer-button:focus .icon-in {
+  transform: translateY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
