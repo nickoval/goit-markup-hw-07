@@ -2,10 +2,11 @@
 @import 'base/reset';
 @import 'utils/smooth';
 @import 'utils/visually-hidden';
+@import 'utils/changeCurrentLine';
 // @import 'base/section-container';
 @import 'base/common';
+
 @import 'components/button';
-@import 'utils/changeCurrentLine';
 @import 'components/logo';
 @import 'components/section-title';
 @import 'components/social-list';
@@ -17,12 +18,9 @@
 @import 'layouts/team';
 @import 'layouts/clients';
 @import 'layouts/footer';
-// @import '';
+
 @import 'layouts/portfolio';
-// @import '';
+
 @import 'components/modal-window';
 @import 'layouts/order-form';
-// @import '';
-// @import '';
-// @import '';
 // @import '';

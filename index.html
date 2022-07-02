@@ -22,7 +22,7 @@
   <body>
     <header class="page-header">
       <div class="container">
-        <nav class="header-nav">
+        <nav class="header-nav" id="navigation">
           <a href="./" class="logo link">Web<span class="logo-header">Studio</span></a>
           <ul class="site-nav">
             <li class="item">
@@ -360,7 +360,7 @@
     <footer class="page-footer">
       <div class="container">
         <div class="contacts-block">
-          <a href="./" class="logo link">Web<span class="logo-footer">Studio</span></a>
+          <a href="#navigation" class="logo link">Web<span class="logo-footer">Studio</span></a>
           <address id="contacts" class="footer-address">
             <ul class="contacts-list">
               <li class="item">
@@ -373,43 +373,43 @@
                 </a>
               </li>
               <li class="item">
-                <a class="contacts-item link" href="mailto:info@devstudio.com"
+                <a class="contacts-list__link link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="item">
-                <a class="contacts-item link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contacts-list__link link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
         <div class="connect-block">
-          <b class="title">Присоединяйтесь</b>
+          <b class="connect-block__title">Присоединяйтесь</b>
           <ul class="social-list">
             <li class="social-list__item">
-              <a href="" class="social-list__link link footer-social_link">
+              <a href="" class="social-list__link link page-footer__social-link">
                 <svg class="social-list__icon" width="20" height="20" aria-label="instagram">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
-              <a href="" class="social-list__link link footer-social_link">
+              <a href="" class="social-list__link link page-footer__social-link">
                 <svg class="social-list__icon" width="20" height="20" aria-label="twitter">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
-              <a href="" class="social-list__link link footer-social_link">
+              <a href="" class="social-list__link link page-footer__social-link">
                 <svg class="social-list__icon" width="20" height="20" aria-label="facebook">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list__item">
-              <a href="" class="social-list__link link footer-social_link">
+              <a href="" class="social-list__link link page-footer__social-link">
                 <svg class="social-list__icon" width="20" height="20" aria-label="linkedin">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -418,10 +418,11 @@
           </ul>
         </div>
 
-        <div class="subscription-block">
-          <b class="title">Подпишитесь на рассылку</b>
-          <form class="subscription-field">
-            <input type="email" name="mail" class="mail" placeholder="E-mail" />
+        <div class="subscription">
+          <b class="subscription__title">Подпишитесь на рассылку</b>
+          <form class="subscription__field">
+            <input type="email" name="mail" class="subscription__input" placeholder="E-mail" />
+
             <button type="button" class="main-button footer-button">
               Подписаться
               <svg class="icon-out" width="24" height="24" aria-label="">
