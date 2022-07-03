@@ -14,9 +14,10 @@
 
 
 .feature-list__icon-field {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    @include flexXY();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--team-bg-color);
@@ -24,9 +25,10 @@
 }
 
 .feature-list__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
+    @include fonts(14px, 700, 1.143);
+  // font-size: 14px;
+  // font-weight: 700;
+  // line-height: 1.143;
   text-transform: uppercase;
 
   margin-bottom: 10px;

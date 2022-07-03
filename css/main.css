@@ -125,16 +125,16 @@ img {
 .logo {
   margin-right: 93px;
   font-family: var(--title-font);
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.167;
   text-align: center;
   margin-bottom: 50px;
@@ -179,8 +179,8 @@ img {
 }
 .page-header .container {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
+  /* flex-wrap: wrap; */
   /* min-height: 80px; */
 }
 
@@ -199,8 +199,8 @@ img {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 19px;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
 }
@@ -283,11 +283,11 @@ img {
   width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.364;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--white-color);
 }
@@ -307,8 +307,8 @@ img {
 
 .feature-list__icon-field {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--team-bg-color);
@@ -316,9 +316,10 @@ img {
 }
 
 .feature-list__title {
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -352,12 +353,13 @@ img {
   /* padding-top: 27px;
     padding-bottom: 27px; */
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   /* text-align: center; */
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
   background-color: var(--worklist-bg-color);
@@ -388,17 +390,19 @@ img {
 }
 
 .team-list__title {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.188;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: var(--title-text-color);
 }
 
 .team-list__text {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.188;
+  letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
 
@@ -412,8 +416,8 @@ img {
 
 .client-list__link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   color: var(--social-link-color);

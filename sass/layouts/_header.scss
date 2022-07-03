@@ -3,16 +3,18 @@
   background-color: var(--white-color);
 
   & .container {
-    display: flex;
+        @include flexX();
+    // display: flex;
+    // align-items: center;
     /* flex-wrap: wrap; */
-    align-items: center;
     /* min-height: 80px; */
   }
 }
 
 .header-nav {
-  display: flex;
-  align-items: center;
+      @include flexX();
+  // display: flex;
+  // align-items: center;
 }
 
 .logo-header {
@@ -21,14 +23,16 @@
 
 .site-nav,
 .contacts-nav {
-  display: flex;
-  align-items: center;
+    @include flexX();
+  // display: flex;
+  // align-items: center;
   padding-top: 20px;
   padding-bottom: 19px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
+    @include fonts(14px, 500, 1.143, 0.02em);
+  // font-size: 14px;
+  // font-weight: 500;
+  // line-height: 1.143;
+  // letter-spacing: 0.02em;
 
   & .item:not(:last-child) {
     margin-right: 50px;
@@ -87,8 +91,9 @@
 }
 
 .contacts-nav__link {
-  display: flex;
-  align-items: center;
+    @include flexX();
+  // display: flex;
+  // align-items: center;
   padding-top: 12px;
   padding-bottom: 12px;
   color: var(--main-text-color);

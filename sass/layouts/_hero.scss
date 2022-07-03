@@ -19,11 +19,12 @@
     width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.364;
+    @include fonts(44px, 900, 1.364, 0.06em);
+    // font-size: 44px;
+    // font-weight: 900;
+    // line-height: 1.364;
+    // letter-spacing: 0.06em;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
   }

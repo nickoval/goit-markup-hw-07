@@ -8,9 +8,10 @@
 
 // .clients-list 
 .client-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    @include flexXY();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   width: 170px;
   height: 92px;
   color: var(--social-link-color);

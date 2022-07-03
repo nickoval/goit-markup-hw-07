@@ -28,9 +28,10 @@
 
 
 .team-list__title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.188;
+  @include fonts(16px, 500, 1.188);
+  // font-size: 16px;
+  // font-weight: 500;
+  // line-height: 1.188;
 
   margin-bottom: 10px;
 
@@ -38,8 +39,9 @@
 }
 
 .team-list__text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.188;
+    @include fonts(16px, 400, 1.188);
+  // font-size: 16px;
+  // font-weight: 400;
+  // line-height: 1.188;
   margin-bottom: 16px;
 }
