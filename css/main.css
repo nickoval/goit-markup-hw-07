@@ -123,7 +123,6 @@ img {
 }
 
 .logo {
-  margin-right: 93px;
   font-family: var(--title-font);
   font-size: 26px;
   font-weight: 700;
@@ -182,6 +181,9 @@ img {
   align-items: center;
   /* flex-wrap: wrap; */
   /* min-height: 80px; */
+}
+.page-header__logo {
+  margin-right: 93px;
 }
 
 .header-nav {
